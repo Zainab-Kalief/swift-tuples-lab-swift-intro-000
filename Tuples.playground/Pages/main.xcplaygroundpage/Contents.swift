@@ -17,7 +17,7 @@
 // write your code here
 
 
-
+var person = ("Jack", 15)
 
 
 
@@ -29,7 +29,7 @@
 // write your code here
 
 
-
+print("\(person.0) is \(person.1) years old")
 
 
 
@@ -41,7 +41,7 @@
 // write your code here
 
 
-
+person.age += 1
 
 
 
@@ -54,7 +54,7 @@
 
 
 
-
+print("Happy \(person.1)th birthday, \(person.0)")
 
 
 
@@ -65,7 +65,7 @@
 // write your code here
 
 
-
+var someone = (name: "Jill", age: 9)
 
 
 
@@ -77,7 +77,7 @@
 // write your code here
 
 
-
+print("\(someone.name) is \(someone.age)")
 
 
 
@@ -89,7 +89,7 @@
 
 
 
-
+someone.age += 1
 
 
 
@@ -100,7 +100,7 @@
 
 
 
-
+print("Happy \(someone.age)th birdthday, \(someone.name)")
 
 
 
@@ -111,7 +111,7 @@
 // write your code here
 
 
-
+let human = (name: "Wurry", age: 22)
 
 
 
@@ -120,10 +120,10 @@
 /*:
  ### 10. Can you change `human`'s age? Why or why not?
  */
+// No you can't
 
 
-
-
+// You can't because we declared human as a constant with makes it immutable
 
 
 
