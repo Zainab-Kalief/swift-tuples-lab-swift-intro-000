@@ -41,7 +41,7 @@ print("\(person.0) is \(person.1) years old")
 // write your code here
 
 
-person.age += 1
+person.1 += 1
 
 
 
